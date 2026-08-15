@@ -23,7 +23,7 @@ describe("reactive test", () => {
     expect(computed).toBe(`a + b = 12`);
     state.b = 20;
 
-    log('3:',computed)
+    console.log('3:',computed)
     await wait();
     expect(computed).toBe(`a + b = 30`);
   });

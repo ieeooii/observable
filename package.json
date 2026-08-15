@@ -14,9 +14,7 @@
     "typescript": "^5.9.3"
   },
   "scripts": {
-    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
-  },
-  "jest": {
-    "transform": {}
+    "test": "jest",
+    "typecheck": "tsc --noEmit"
   }
 }
