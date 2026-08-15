@@ -18,6 +18,7 @@ describe("reactive test", () => {
 
     expect(computed).toBe(`a + b = 3`);
 
+    state.a = 10;
     await wait();
 
     expect(computed).toBe(`a + b = 12`);
